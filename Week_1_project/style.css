@@ -1,0 +1,91 @@
+.name{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+}
+
+body{
+    font-style: system-ui;
+}
+#about,
+#contact,
+#projects{
+    line-height: 1.5;
+    text-align: center;
+    padding: 2px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 700px;
+    margin: auto;
+}
+section{
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+nav a:hover{
+    color: blue; 
+    text-decoration: underline;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 6px 10px;
+}
+
+#contact{
+    background-color: lightgrey;
+}
+
+#projects{
+    background-color: rgb(240, 240, 233);
+}
+
+.project-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-card{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.project-card:hover{
+    box-shadow: 0 4px 8px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#subtitle{
+    font-size: medium;
+    text-align: center;
+    font-style: italic;
+}
