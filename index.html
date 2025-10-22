@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Ali Almousawi – Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1 class="name">Ali Almousawi</h1>
+    <p id="subtitle">Aspiring Front-End Developer | Responsive Design | Accessibility | Clean Code</p>
+    <br />
+    <nav>
+      <ul id="navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I’m Ali Almousawi, a software developer currently completing an intensive coding bootcamp.
+        I have hands-on experience with HTML, CSS, and JavaScript, and I’m building responsive, accessible
+        web projects to strengthen my front-end development skills. I’m motivated to continue learning and grow
+        into a professional developer role.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        I’d love to connect! Please feel free to reach out via email at
+        <a href="mailto:amousawi@hotmail.co.uk">amousawi@hotmail.co.uk</a> or connect with me on
+        <a href="https://www.linkedin.com/in/ali-almousawi/" target="_blank" rel="noopener">LinkedIn</a>.
+        I’m open to opportunities where I can contribute, learn, and grow as a developer.
+      </p>
+    </section>
+
+    <br />
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        Below are some of the projects I’ve created as part of my learning journey.
+        Each project has helped me apply concepts such as responsive design, Flexbox, Grid layouts, and
+        accessibility best practices. More projects will be added here as I continue to expand my portfolio.
+      </p>
+
+      <div class="project-grid">
+        <!-- TaskFlow Kanban -->
+        <article class="project-card">
+          <a class="project-thumb"
+             href="https://amousawi.github.io/taskflow-kanban/"
+             target="_blank" rel="noopener"
+             aria-label="Open TaskFlow Kanban live demo">
+            <!-- Use your actual screenshot file here -->
+            <img src="Image.png"
+                 alt="TaskFlow Kanban — three-column board with task cards"
+                 loading="lazy" width="640" height="360">
+          </a>
+
+          <div class="project-body">
+            <h3 class="project-title">TaskFlow Kanban</h3>
+            <p class="project-desc">
+              Trello-style board with drag &amp; drop, dark mode, inline edit, labels &amp; due dates,
+              search/filters, and JSON export/import.
+            </p>
+
+            <ul class="project-badges" aria-label="Technologies">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Accessibility</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="btn primary" href="https://amousawi.github.io/taskflow-kanban/" target="_blank" rel="noopener">🔗 Live Demo</a>
+              <a class="btn" href="https://github.com/amousawi/taskflow-kanban" target="_blank" rel="noopener">📦 Source</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Placeholder 1 -->
+        <article class="project-card">
+          <div class="project-thumb placeholder"><span>Coming soon</span></div>
+          <div class="project-body">
+            <h3 class="project-title">Movie Explorer (React)</h3>
+            <p class="project-desc">Search films via TMDB API, details modal, favourites, dark mode.</p>
+            <ul class="project-badges"><li>React</li><li>API</li><li>Vite</li></ul>
+            <div class="project-actions">
+              <a class="btn" aria-disabled="true">🔗 Live Demo</a>
+              <a class="btn" aria-disabled="true">📦 Source</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Placeholder 2 -->
+        <article class="project-card">
+          <div class="project-thumb placeholder"><span>Coming soon</span></div>
+          <div class="project-body">
+            <h3 class="project-title">Shopping Cart (Redux)</h3>
+            <p class="project-desc">Add/remove products, totals, persisted cart with Redux.</p>
+            <ul class="project-badges"><li>React</li><li>Redux</li></ul>
+            <div class="project-actions">
+              <a class="btn" aria-disabled="true">🔗 Live Demo</a>
+              <a class="btn" aria-disabled="true">📦 Source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ali Almousawi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
